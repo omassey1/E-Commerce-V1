@@ -1,0 +1,86 @@
+ [
+      {
+        "image": "https://tmm.chicagodistributioncenter.com/IsbnImages/9780226026756.jpg",
+        "Name": "The Nicomachean Ethics",
+        "Author": "Aristotle",
+        "Price": "$12.99",
+        "Description": "The Nicomachean Ethics is Aristotle's best-known work on ethics, the science of the good for human life, which is the goal or end at which all our actions aim. "
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/51LS8guAn6L._AC_SY780_.jpg",
+        "Name": "Leonardo da Vinci",
+        "Author": "Walter Isaacson",
+        "Price": "$19.99",
+        "Description": "Based on thousands of pages from Leonardo da Vinci's astonishing notebooks and new discoveries about his life and work, Walter Isaacson “deftly reveals an intimate Leonardo” in a narrative that connects his art to his science. "
+      },
+      {
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925655l/30289.jpg",
+        "Name": "The Republic",
+        "Author": "Plato",
+        "Price": "$11.99",
+        "Description": "The Republic is a Socratic dialogue, authored by Plato around 375 BC, concerning justice, the order and character of the just city-state, and the just man. "
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/51OR6K8ZfbL.jpg",
+        "Name": "The Art of War",
+        "Author": "Sun Tzu",
+        "Price": "$9.99",
+        "Description": "Twenty-Five Hundred years ago, Sun Tzu wrote this classic book of military strategy based on Chinese warfare and military thought."
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/41qI9quGIdL._AC_SY780_.jpg",
+        "Name": "Fahrenheit 451",
+        "Author": "Ray Bradbury",
+        "Price": "$13.99",
+        "Description": "Fahrenheit 451 presents an American society where books have been outlawed and 'firemen' burn any that are found."
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/510RH1nJgQL._AC_SY780_.jpg",
+        "Name": "Letters from a Stoic",
+        "Author": "Seneca",
+        "Price": "$13.99",
+        "Description": "Letters from a Stoic, is a collection of 124 letters that Seneca wrote at the end of his life, during his retirement, after he had worked for the Emperor Nero for more than ten years. They are addressed to Lucilius Junior, the then procurator of Sicily, who is known only through Seneca's writings."
+      },
+      {
+        "image": "https://images.penguinrandomhouse.com/cover/9780141199603",
+        "Name": "Moby Dick",
+        "Author": "Herman Melville",
+        "Price": "$15.00",
+        "Description": "Over a century and a half after its publication, Moby-Dick still stands as an indisputable literary classic. It is the story of an eerily compelling madman pursuing an unholy war against a creature as vast and dangerous and unknowable as the sea itself."
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/41dKkez-1rL._AC_SY780_.jpg",
+        "Name": "Steve Jobs",
+        "Author": "Walter Isaacson",
+        "Price": "$19.99",
+        "Description": "Steve Jobs is the authorized self-titled biography of American business magnate and Apple co-founder Steve Jobs. The book was written at the request of Jobs by Walter Isaacson, a former executive at CNN and TIME who has written best-selling biographies of Benjamin Franklin and Albert Einstein."
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/51jzaclK20L._AC_SY780_.jpg",
+        "Name": "Existentialism is a Humanism",
+        "Author": "Jean-Paul Sartre",
+        "Price": "$8.99",
+        "Description": "Existentialism Is a Humanism is a 1946 work by the philosopher Jean-Paul Sartre, based on a lecture by the same name he gave at Club Maintenant in Paris, on 29 October 1945."
+      },
+      {
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1462223700l/205218.jpg",
+        "Name": "Ethics",
+        "Author": "Baruch Spinoza",
+        "Price": "$13.99",
+        "Description": "Published shortly after his death, the Ethics is undoubtedly Spinoza's greatest work - an elegant, fully cohesive cosmology derived from first principles, providing a coherent picture of reality, and a guide to the meaning of an ethical life. "
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/41XS5NsUNML._AC_SY780_.jpg",
+        "Name": "Tesla: Inventor of the Electrical Age",
+        "Author": "W. Bernard Carlson",
+        "Price": "$17.99",
+        "Description": "This major biography sheds new light on Tesla's visionary approach to invention and the business strategies behind his most important technological breakthroughs."
+      },
+      {
+        "image": "https://images.gr-assets.com/books/1388181863l/1375.jpg",
+        "Name": "The Iliad/The Odyssey",
+        "Author": "Homer",
+        "Price": "$25.99",
+        "Description": "Gripping listeners and readers for more than 2,700 years, The Iliad is the story of the Trojan War and the rage of Achilles. Combining the skills of a poet and scholar, Robert Fagles brings the energy of contemporary language to this enduring heroic epic."
+      }
+    ]

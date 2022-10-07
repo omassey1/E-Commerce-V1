@@ -1,0 +1,369 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: tan;
+    position: relative;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  html {
+    scroll-behavior: smooth;
+}
+  
+@media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: 100%;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+ 
+  .footer-basic {
+    padding:40px 0;
+    background-color:tan;
+    color:white;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  
+  @media only screen and (max-width: 749px) {
+    .main-footer {
+      padding:20px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+    }
+      .info{
+        padding:20px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main-footer {
+      grid-template-columns: 1fr;
+    }
+    .sociallogos{
+      padding:20px 0;
+    }
+    .com{
+      padding:20px 0;
+    } 
+  
+  }
+  .section-one {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(https://bucketlistportugal.com/wp-content/uploads/2019/06/Livraria-Lello-e-Irmao.jpg);
+	background-size: cover;
+	background-position: center;
+	filter: brightness();
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; 
+  }
+  
+  
+  
+  .section-two {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+  }
+  
+  .container-two {
+	display: flex;
+	padding: 50px;
+	gap: 20px;
+	width: 100%;
+  }
+  
+  .content h1 {
+	font-size: 2.75rem;
+  }
+  
+  .content h1::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #D1A370; 
+  }
+  
+  .content p {
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+  }
+  
+  .content-image img {
+	width: 300px;
+	object-fit: scale-down;
+  }
+  
+  @media (max-width: 700px) {
+	.section-two {
+	  height: 100%;
+	}
+	.container-two {
+	  flex-direction: column;
+	  height: 100%;
+	}
+  }
+
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider {
+	display: block;
+	position: relative;
+	width: 100%;
+	max-width: 900px;
+	margin: 10px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.slider__slides {
+  width: 100%;
+  padding-top: 66%;
+}
+
+.slider__slide {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	font-weight: bold;   
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: lemonchiffon;
+	transition: 1s;
+	opacity: 0;
+}
+
+.slider__slide.active {
+	opacity: 1;
+}
+
+.slider__slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slider__nav-button {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	background-color: #333;
+	opacity: .8;
+	cursor: pointer;
+}
+
+#nav-button--prev {
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+#nav-button--next {
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+#nav-button--prev::after,
+#nav-button--next::after {
+	content: "";
+	position: absolute;
+	border: solid white;
+	border-width: 0 4px 4px 0;
+	display: inline-block;
+	padding: 3px;
+	width: 40%;
+	height: 40%;
+}
+
+#nav-button--next::after{
+	top: 50%;
+	right: 50%;
+	transform: translate(25%, -50%) rotate(-45deg);
+}
+
+#nav-button--prev::after {
+	top: 50%;
+	right: 50%;
+	transform: translate(75%, -50%) rotate(135deg);
+}
+
+.slider__nav {
+	position: absolute;
+	bottom: 3%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+.slider__navlink {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	border: 1px #fff solid;
+	background-color: #333;
+	opacity: 1;
+	margin: 0 10px 0 10px;
+	cursor: pointer;
+}
+
+.slider__navlink.active {
+	background-color: #fff;
+	border: 1px #333 solid;
+}
+
+
+@media screen and (max-width: 640px) {
+  .slider__nav-button {
+	height: 40px;
+	width: 40px;
+  }
+  .slider__navlink {
+	height: 12px;
+	width: 12px;
+  }
+}
